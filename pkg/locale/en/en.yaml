@@ -1,0 +1,40 @@
+en:
+  site_title: "Book of Shame"
+  select_search:
+    select: "Select"
+    search: "Search"
+
+  nav:
+    home: "Home"
+    offenders: "Offenders"
+    new_offender: "New offender"
+    profile: "Profile"
+    signup: "Signup"
+    login: "Login"
+    logout: "Logout"
+
+  location:
+    label: "Location"
+    division: "Division"
+    district: "District"
+    upazila: "Upazila"
+    union: "Union"
+    select_division: "Select division"
+    select_district: "Select district"
+    select_upazila: "Select upazila"
+    select_union: "Select union"
+    select_location: "Select location"
+
+  user:
+    label: "User"
+    name: "Name"
+
+  offender:
+    label: "Offender"
+    name: "Name"
+    full_name: "Full name"
+    gender: "Gender"
+    
+  offense:
+    label: "Offense"
+    description: "Description"

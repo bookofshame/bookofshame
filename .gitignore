@@ -1,0 +1,28 @@
+# main env file
+.env
+
+# templ templating
+*_templ.go
+*_templ.txt
+
+# tailwindcss
+node_modules
+asset/css/style.css
+
+# compiled js
+asset/js/main.js
+
+# air
+_tmp
+_testdata
+
+# turso dev db
+dev.db*
+
+# misc
+.idx/.data
+build
+.DS_Store
+.idea
+*~
+*.go~

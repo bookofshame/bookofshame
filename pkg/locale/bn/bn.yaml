@@ -1,0 +1,39 @@
+bn:
+  site_title: "লজ্জার বই"
+  select_search:
+    select: "নির্বাচন করুন"
+    search: "অনুসন্ধান"
+
+  nav:
+    home: "হোম"
+    offenders: "অপরাধী"
+    new_offender: "নতুন অপরাধী"
+    profile: "প্রোফাইল"
+    signup: "সাইন আপ"
+    login: "লগ ইন"
+    logout: "লগ আউট"
+
+  location:
+    label: "ঠিকানা"
+    division: "বিভাগ"
+    district: "জেলা"
+    upazila: "উপজেলা"
+    union: "ইউনিয়ন"
+    select_division: "বিভাগ নির্বাচন করুন"
+    select_district: "জেলা নির্বাচন করুন"
+    select_upazila: "উপজেলা নির্বাচন করুন"
+    select_union: "ইউনিয়ন নির্বাচন করুন"
+
+  user:
+    label: "ব্যবহারকারী"
+    name: "নাম"
+
+  offender:
+    label: "অপরাধী"
+    name: "অপরাধীর নাম"
+    full_name: "পূর্ণ নাম"
+    gender: "লিঙ্গ"
+
+  offense:
+    label: "অপরাধ"
+    description: "অপরাধের বিস্তারিত"

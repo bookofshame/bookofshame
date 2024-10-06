@@ -1,0 +1,15 @@
+{
+    "author": {
+        "name": "Book of Shame"
+    },
+    "description": "REST Api for book of shame",
+    "scripts": {
+        "start": "go run ./cmd/app/main.go",
+        "dev": "air",
+        "db": "turso dev --db-file dev.db",
+        "mg:status": "bun exec 'goose -dir migrations turso $TURSO_DB_URL?authToken=$TURSO_DB_AUTH_TOKEN status'",
+        "mg:up": "bun exec 'goose -dir migrations turso $TURSO_DB_URL?authToken=$TURSO_DB_AUTH_TOKEN up'",
+        "mg:down": "bun exec 'goose -dir migrations turso $TURSO_DB_URL?authToken=$TURSO_DB_AUTH_TOKEN down'",
+        "mg:reset": "bun exec 'goose -dir migrations turso $TURSO_DB_URL?authToken=$TURSO_DB_AUTH_TOKEN reset'"
+    }
+}
